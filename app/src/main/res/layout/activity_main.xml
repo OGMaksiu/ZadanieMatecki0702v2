@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <SeekBar
-        android:id="@+id/seekBar4"
+        android:id="@+id/seekBarHeight1"
         android:layout_width="54dp"
         android:layout_height="175dp"
         android:rotation="90"
@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.116" />
 
     <SeekBar
-        android:id="@+id/seekBar6"
+        android:id="@+id/seekBarHeight2"
         android:layout_width="54dp"
         android:layout_height="175dp"
         android:rotation="90"
@@ -31,7 +31,7 @@
         app:layout_constraintVertical_bias="0.516" />
 
     <SeekBar
-        android:id="@+id/seekBar7"
+        android:id="@+id/seekBarHeight3"
         android:layout_width="54dp"
         android:layout_height="175dp"
         android:rotation="90"
@@ -91,7 +91,7 @@
         app:srcCompat="@drawable/_198" />
 
     <SeekBar
-        android:id="@+id/seekBar"
+        android:id="@+id/seekBarWidth1"
         android:layout_width="187dp"
         android:layout_height="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -102,7 +102,7 @@
         app:layout_constraintVertical_bias="0.306" />
 
     <SeekBar
-        android:id="@+id/seekBar2"
+        android:id="@+id/seekBarWidth2"
         android:layout_width="187dp"
         android:layout_height="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -113,7 +113,7 @@
         app:layout_constraintVertical_bias="0.603" />
 
     <SeekBar
-        android:id="@+id/seekBar3"
+        android:id="@+id/seekBarWidth3"
         android:layout_width="187dp"
         android:layout_height="23dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -124,7 +124,7 @@
         app:layout_constraintVertical_bias="0.912" />
 
     <ProgressBar
-        android:id="@+id/progressBar"
+        android:id="@+id/horizontalProgressBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="344dp"
         android:layout_height="23dp"
@@ -136,7 +136,7 @@
         app:layout_constraintVertical_bias="0.977" />
 
     <ProgressBar
-        android:id="@+id/progressBar2"
+        android:id="@+id/verticalProgressBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="76dp"
         android:layout_height="451dp"
