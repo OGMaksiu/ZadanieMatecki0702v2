@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.SeekBar
 import android.widget.ProgressBar
 import android.widget.Button
+import android.widget.ImageView
 
 
 class MainActivity : AppCompatActivity() {
@@ -69,6 +70,8 @@ class MainActivity : AppCompatActivity() {
                 totalWidth =
                     seekBarWidth1.progress + seekBarWidth2.progress + seekBarWidth3.progress
                 horizontalProgressBar.progress = (totalWidth * 100 / maxWidth).coerceAtMost(100)
+                val scale = progress/100f
+                findViewById<ImageView>(R.id.imageView2).scaleX = scale
             }
 
             override fun onStartTrackingTouch(seekBar: SeekBar?) {}
